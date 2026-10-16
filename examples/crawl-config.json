@@ -1,0 +1,15 @@
+{
+  "db": ".webcollect/demo.sqlite3",
+  "seeds": ["http://127.0.0.1:8080/"],
+  "allow_domains": ["127.0.0.1"],
+  "depth": 2,
+  "concurrency": 4,
+  "per_host_concurrency": 2,
+  "rps": 5,
+  "max_pages": 30,
+  "queue_size": 20,
+  "timeout": 10,
+  "max_response_bytes": 2097152,
+  "max_attempts": 3,
+  "user_agent": "webcollect-local-demo/0.1"
+}

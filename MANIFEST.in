@@ -1,0 +1,6 @@
+include asynchronous_web_data_collector_project_brief.md
+include .gitignore
+recursive-include docs *.md *.json
+recursive-include examples *.py *.json
+recursive-include tests *.py *.html *.txt
+recursive-include .github *.yml
